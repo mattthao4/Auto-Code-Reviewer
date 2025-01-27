@@ -1,0 +1,59 @@
+Make sure you have the Extension Pack for Java installed.
+
+To open Unit Test, Select File > Open Folder
+Open the folder that has the Assignment name.
+Your directory should like similar to example.png.
+
+Place the student submissions in the Submissions folder.
+You must create a folder that has the Group's name and 
+place the Java file inside of it.
+
+The Tab should be something like
+
+Submissions -> Group 1 -> Assignment1.java
+
+If it is not in this order, the code will fail to work.
+
+After properly placing the submissions, go into the 
+test file.
+
+src -> test -> java -> com -> foo
+
+Locate the GraderTest.java file.
+
+Run the GraderTest file. You may need to recompile it twice.
+
+If any errors comes up, try going into the command palette 
+and Clean Java Language Server Workspace.
+
+If compiled successfully, on the side bar, there is
+a flask called Testing.
+
+Go into that Tab and click on the Java Test drop-down.
+
+There, you will see different tests.
+
+If you click on the drop-down for these tests, you will
+see the student submissions, along with a drop-down 
+for them.
+
+If you click on the drop-down for the submissions,
+you will see the test cases that they passed or failed.
+
+Another error you might encounter is if in that location
+where the GraderTest.java is located, there is a directory
+named Tests. This Tests directory should only contain
+.java files. If it has anything other than that, this will
+fail to compile.
+
+Another error you might encounter is the directories written
+inside the GraderTest. These must align with the proper submissions
+folder directory and the Tests folder directory located with the same
+GraderTest.java.
+
+If you encounter any other errors, it might be a pom.xml issue.
+If this is the case, just copy the pom.xml into ChatGPT and have
+it compute an updated version of the plugins.
+
+If errors still occur, try debugging with ChatGPT or any other
+AI coding tool.
